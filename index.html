@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio_Website</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/1311e2b2a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>Chol <span style="color: rgb(233, 0, 116);">A.</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">My Services</a></li>
+                    <li><a href="#portfolio">My Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="toggle_div">
+        <button id="theme-toggle">
+            <i class="fa-solid fa-toggle-on"></i> <span id="toggle-text">Toggle Theme</span>
+        </button>
+    </div>
+    <div class="header-text">
+        <p>Frontend Developer | Graphic Designer | Digital Marketer</p>
+        <h1>I'm <span>Chol,</span>based<br>in Kakuma, Kenya.</h1>
+    </div>
+    <!-- About -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Assets_folder/IMG_20231217_112807_209~2.jpg" class="img">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" style="color: rgb(233, 0, 116);">About Me</h1>
+                    <p>Experienced in computer programming with proficiency in HTML, CSS, and JavaScript. Skilled in developing effective marketing strategies, WordPress websites, and visually appealing graphic designs using Canva and Adobe Photoshop. Actively engaged in the Na’amal mentorship program for personal development. In the future, I’m eager to continue growing my skill set and industry knowledge, taking on challenging projects, and joining a great team where I can contribute my thoughts and ideas for the betterment of our work.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="Opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="Opentab('experience')">experience</p>
+                        <p class="tab-links active-link" onclick="Opentab('education')">Education</p>
+                    </div>
+                    <div class="tab_contents active_tab" id="skills">
+                        <ul>
+                            <li><span>Computer Programming</span><br>Software Development</li>
+                            <li><span>Graphic Designing</span><br>Photo editing and graphic design skills.</li>
+                            <li><span>Digital Marketing</span><br>Develop, implement, and manage online marketing strategies to promote a brand, product, or service.</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="experience">
+                        <ul>
+                            <li><span>June, 2023 - Current</span><br>Computer Programming under S.I.R</li>
+                            <li><span>Sept, 2023 - Current</span><br>Graphic Designing under Amala Org.</li>
+                            <li><span>Sept, 2023 - Current</span><br>Mentorship Programme under Na'amal Projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab_contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Certificate in Computer Programming</li>
+                            <li><span>2023</span><br>Design Training under Raspbery Pi</li>
+                            <li><span>2023</span><br>Certificate in Mentorship Program</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hobbies -->
+    <section id="hobbies">
+        <h2>My Hobbies</h2>
+        <div class="hobbies-icons">
+            <div class="hobby">
+                <i class="fas fa-code"></i>
+                <span>Coding</span>
+            </div>
+            <div class="hobby">
+                <i class="fas fa-book"></i>
+                <span>Reading</span>
+            </div>
+            <div class="hobby">
+                <i class="fa-solid fa-laptop"></i>
+                <span>Blogging</span>
+            </div>
+            <div class="hobby">
+                <i class="fa-solid fa-video"></i>
+                <span>Online Courses</span>
+            </div>
+            <div class="hobby">
+                <i class="fas fa-gamepad"></i>
+                <span>Gaming</span>
+            </div>
+            <div class="hobby">
+                <i class="fas fa-music"></i>
+                <span>Music</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title" style="color: rgb(233, 0, 116);">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Coding</h2>
+                    <p>I use programming languages like HTML, CSS, or JavaScript to write codes, and develop websites ensuring they run smoothly. My work involves problem-solving, debugging, and continuously improving code to create high-quality software solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-pen-to-square"></i>
+                    <h2>Graphic Design</h2>
+                    <p>With expertise in Canva and Adobe Photoshop, I create visually engaging designs that communicate messages effectively using computer software or by hand. I craft social media graphics and marketing materials to logo design and photo editing<p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-chart-simple"></i>
+                    <h2>Digital Marketing</h2>
+                    <p>I develop and execute strategies to promote brands and drive online engagement through various digital channels, including social media, email, SEO, and eCommerce platforms, I optimize campaigns to reach target audiences, measure performance, and deliver results that align with business goals.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" style="color: rgb(233, 0, 116);">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Assets_folder/My Portfolio Codes.png">
+                    <div class="layer">
+                        <h3>Computer Programmer</h3>
+                        <p>Coding is a great way to express my creativity. It Can be used to automate tasks that would otherwise be tedious or time-consuming. It also helps me learn about organization and planning.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assets_folder/design tools.jpeg">
+                    <div class="layer">
+                        <h3>Graphic Designer</h3>
+                        <p>Graphic designers play an important role in following new trends and thus making attractive content.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assets_folder/Digital Marketing - Copy.png">
+                    <div class="layer">
+                        <h3>Digital Marketer</h3>
+                        <p>Spreadsheets keep information electronically, which is more time efficient than sorting through mounds of paperwork to gather crucial bits of information</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" style="color: rgb(233, 0, 116);">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> cholsholler@gmail.com</p>
+                    <p> <i class="fa-sharp fa-solid fa-phone"></i> +254111881238</p>
+                    <div class="social-icons">
+                        <a href="https://web.facebook.com/sholler.atem"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/CholSholler"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/chol_sholler/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/chol-atem-deng-536a9329b/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Chol-Atem-Deng"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Assets_folder/chol_atem_deng.docx.pdf" download="Chol's CV" class="btn btn2">Download My CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Summit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> &#169; Chol.A</p>
+        </div>
+    </div>
+
+
+    <script src="./script.js">
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab_contents");
+
+        function Opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active_link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active_tab");
+            }
+            event.currentTarget.classList.add("active_link");
+            document.getElementById(tabname).classList.add("active_tab")
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzpd6lhCCfx_0VaqmSe2hllyQA0ZvsnaX5jACkCWK2rHGZBCVZaSMQKs0Wcn0mQGZwc/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function() {
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>

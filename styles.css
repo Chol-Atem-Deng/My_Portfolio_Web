@@ -22,13 +22,17 @@ body{
 }
 #header{
     width: 100%;
-    background-image: url(images/WhatsApp\ Image\ 2024-10-18\ at\ 4.47.21_c2089c90.jpg);
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
 }
 .header-text{
     margin-left: 10%;
+    margin-right: 10%;
+    background-image: url(Assets_folder/Hello\ world.png);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 350px;
+    padding: 25px;
+    border-radius: 8px;
 }
 .light-theme {
     background-color: white;
